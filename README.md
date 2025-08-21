@@ -22,17 +22,23 @@ The project consists of three main components:
 Monitoring Dashboard
 
 Application Request Metrics
-![Request Metrics](image-1.jpeg)
+![Request Metrics]
+
+<img alt="image-1" src="https://github.com/user-attachments/assets/305d835a-f4f2-45db-89cf-1a924ba0466d" />
 
 The dashboard shows the `app_total_requests_total` metric tracking the number of requests over time. The graph demonstrates how the application handled 50+ requests during the testing period.
 
 Container Memory Usage
-![Memory Usage](image-4.jpeg)
+![Memory Usage]
+
+<img alt="image-4" src="https://github.com/user-attachments/assets/0e1e8809-8caf-423a-905d-8444458203eb" />
 
 Container memory usage metrics provide insights into resource consumption across different system components and services running in the monitored environment.
 
 Prometheus Targets Status
-![Targets Status](image-3.jpeg)
+![Targets Status]
+
+<img alt="image-3" src="https://github.com/user-attachments/assets/86820134-e6e3-417d-ba81-3af125b95cad" />
 
 The targets page shows the monitoring status of various endpoints including:
 - Python-App: The main Flask application (currently down in screenshot)
@@ -40,7 +46,9 @@ The targets page shows the monitoring status of various endpoints including:
 - prometheus: Self-monitoring (up and running)
 
 System Overview Dashboard
-![System Overview](image-2.jpeg)
+![System Overview]
+
+<img alt="image-2" src="https://github.com/user-attachments/assets/fbd67e52-2e3e-482e-9dbb-c195559e4f6a" />
 
 Comprehensive system monitoring dashboard displaying:
 - CPU Usage: Real-time CPU utilization across multiple cores
@@ -48,7 +56,9 @@ Comprehensive system monitoring dashboard displaying:
 - Process Information: Running processes and resource allocation
 
 Metrics Endpoint Output
-![Metrics Output](image-5.jpeg)
+![Metrics Output]
+
+<img width="782" height="642" alt="image-5" src="https://github.com/user-attachments/assets/34ea9a32-a1f5-4081-9490-ec8d9151d757" />
 
 Raw metrics output from the `/metrics` endpoint showing detailed Prometheus metrics including:
 - Python garbage collection statistics
@@ -173,7 +183,7 @@ Troubleshooting
 
 0. If the process is running and make you cannot run any commands,
 you can try to grep the process and kill it or wait untill it finished
-ps -ef | grep <process name>
+ps -ef | grep <process-name>
 
 1. Container Won't Start
    - Verify Docker is running
