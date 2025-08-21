@@ -2,6 +2,12 @@ Docker Application Monitoring with Prometheus
 
 A comprehensive project demonstrating how to monitor a Dockerized Flask application using Prometheus metrics collection and visualization.
 
+<img alt="image" src="https://github.com/user-attachments/assets/28c96f01-7cf5-4126-a0a7-8f5d06f2e29b" />
+
+<img alt="architecture-2" src="https://github.com/user-attachments/assets/d3e629a4-2007-4219-b0a0-2742afc6b645" />
+
+
+
 Project Overview
 
 This project showcases the implementation of application monitoring using Prometheus for a containerized Python Flask web application. The setup includes:
