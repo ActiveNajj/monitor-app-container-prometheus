@@ -189,7 +189,7 @@ Troubleshooting
 
 0. If the process is running and make you cannot run any commands,
 you can try to grep the process and kill it or wait untill it finished
-ps -ef | grep "<process-name>"
+ps -ef | grep "process-name"
 
 1. Container Won't Start
    - Verify Docker is running
